@@ -2,7 +2,7 @@
 pragma solidity ^0.8.20;
 
 import "forge-std/Test.sol";
-import "../src/ERC20.sol";
+import "../src/interface/ERC20.sol";
 
 uint256 constant INITIAL_SUPPLY = 100000;
 address constant WALLET = 0x8F5a1Ccf3D0DE62a25bf594c14e0967fF66461DD;
